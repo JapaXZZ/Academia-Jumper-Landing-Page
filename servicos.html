@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Serviços e Planos - Jumper Fitness. Conheça nossos preços e horários de Musculação, Boxe, Zumba, Ginástica Localizada e Jumper.">
+    <title>Serviços e Planos | Jumper Fitness</title>
+
+    <!-- Google Fonts: Syne & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="page-services">
+
+    <!-- Header / Navigation -->
+    <header class="main-header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                JUMPER<span>FITNESS</span>
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Início</a>
+                <a href="index.html#sobre" class="nav-link">Sobre</a>
+                <a href="servicos.html" class="nav-link active">Serviços</a>
+                <a href="galeria.html" class="nav-link">Galeria</a>
+                <a href="roupas.html" class="nav-link">Roupas</a>
+                <a href="index.html#contato" class="nav-link">Horários</a>
+                <a href="https://wa.me/5518981701087" target="_blank" class="btn btn-primary btn-mobile-only">
+                    Matricule-se <i data-lucide="arrow-up-right"></i>
+                </a>
+            </nav>
+
+            <div class="header-actions">
+                <a href="https://wa.me/5518981701087" target="_blank" class="btn btn-primary btn-nav">
+                    Matricule-se <i data-lucide="arrow-up-right"></i>
+                </a>
+                <button class="hamburger" id="hamburgerBtn" aria-label="Abrir Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Title Header -->
+    <section class="page-title-section">
+        <div class="container">
+            <span class="section-subtitle">O QUE OFERECEMOS</span>
+            <h1 class="page-main-title">NOSSOS SERVIÇOS</h1>
+            <p class="page-intro-text">
+                Encontre o plano ideal para a sua saúde e condicionamento. Do relaxamento e queima calórica da Zumba à
+                intensidade do Boxe e Musculação.
+            </p>
+        </div>
+    </section>
+
+    <!-- Serviços & Preços Grid -->
+    <section class="services-content-section">
+        <div class="container">
+            <div class="services-grid">
+                <!-- Musculação -->
+                <div class="service-card highlight-card">
+                    <div class="card-badge">Popular</div>
+                    <div class="service-icon">
+                        <i data-lucide="dumbbell"></i>
+                    </div>
+                    <h3 class="service-title">Musculação</h3>
+                    <p class="service-desc">
+                        Acesso completo à nossa área de pesos livres e aparelhos modernos. Treino focado nos seus
+                        objetivos individuais.
+                    </p>
+                    <div class="service-schedule">
+                        <span class="schedule-label">Horário Livre</span>
+                        <p class="schedule-days">Segunda a Domingo</p>
+                    </div>
+                    <div class="service-price">
+                        <div class="price-val">R$ 55<span class="price-period">/mês (Mensal)</span></div>
+                        <div class="price-sub">Ou R$ 65,00 plano padrão</div>
+                    </div>
+                    <a href="https://wa.me/5518981701087?text=Olá! Gostaria de me matricular na Musculação."
+                        target="_blank" class="btn btn-primary btn-block">Matricular-se</a>
+                </div>
+
+                <!-- Boxe -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i data-lucide="swords"></i>
+                    </div>
+                    <h3 class="service-title">Boxe</h3>
+                    <p class="service-desc">
+                        Aulas dinâmicas de combate para melhorar o cardio, força e coordenação. Defesa pessoal e
+                        condicionamento físico.
+                    </p>
+                    <div class="service-schedule">
+                        <span class="schedule-label">Horários das Aulas</span>
+                        <p class="schedule-days">Terça e Quinta</p>
+                        <p class="schedule-time">19:30 às 20:30</p>
+                    </div>
+                    <div class="service-price">
+                        <div class="price-val">R$ 40<span class="price-period">/mês</span></div>
+                        <div class="price-sub">Boxe Mensal: R$ 40,00</div>
+                    </div>
+                    <a href="https://wa.me/5518981701087?text=Olá! Gostaria de mais informações sobre as aulas de Boxe."
+                        target="_blank" class="btn btn-outline btn-block">Quero Fazer</a>
+                </div>
+
+                <!-- Zumba -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i data-lucide="music"></i>
+                    </div>
+                    <h3 class="service-title">Zumba</h3>
+                    <p class="service-desc">
+                        Mistura de ginástica com danças latinas. Queime calorias de forma divertida e descontraída com
+                        muita música.
+                    </p>
+                    <div class="service-schedule">
+                        <span class="schedule-label">Horários das Aulas</span>
+                        <p class="schedule-days">Segunda, Quarta e Sexta</p>
+                        <p class="schedule-time">18:30 às 19:30</p>
+                    </div>
+                    <div class="service-price">
+                        <div class="price-val">R$ 50<span class="price-period">/mês</span></div>
+                        <div class="price-sub">Zumba Mensal: R$ 50,00</div>
+                    </div>
+                    <a href="https://wa.me/5518981701087?text=Olá! Gostaria de mais informações sobre as aulas de Zumba."
+                        target="_blank" class="btn btn-outline btn-block">Quero Fazer</a>
+                </div>
+
+                <!-- Ginástica Localizada -->
+                <div class="service-card span-2-md">
+                    <div class="service-icon">
+                        <i data-lucide="activity"></i>
+                    </div>
+                    <h3 class="service-title">Ginástica Localizada</h3>
+                    <p class="service-desc">
+                        Aulas em grupo voltadas ao fortalecimento muscular localizado com uso de caneleiras, halteres e
+                        steps. Ideal para definição corporal rápida.
+                    </p>
+                    <div class="service-schedule-double">
+                        <div class="schedule-col">
+                            <span class="schedule-label">Período Manhã</span>
+                            <p class="schedule-days">Terça, Quarta e Quinta</p>
+                            <p class="schedule-time">06:30 às 07:30</p>
+                        </div>
+                        <div class="schedule-col">
+                            <span class="schedule-label">Período Noite</span>
+                            <p class="schedule-days">Segunda, Quarta e Sexta</p>
+                            <p class="schedule-time">19:30 às 20:20</p>
+                        </div>
+                    </div>
+                    <div class="service-price">
+                        <div class="price-val">R$ 40<span class="price-period">/mês</span></div>
+                        <div class="price-sub">Ginástica Localizada Mensal: R$ 40,00</div>
+                    </div>
+                    <a href="https://wa.me/5518981701087?text=Olá! Gostaria de me matricular na Ginástica Localizada."
+                        target="_blank" class="btn btn-outline btn-block">Matricular-se</a>
+                </div>
+
+                <!-- Aula de Jumper -->
+                <div class="service-card span-2-md highlight-border">
+                    <div class="card-badge warning-badge">Vagas Limitadas</div>
+                    <div class="service-icon">
+                        <i data-lucide="zap"></i>
+                    </div>
+                    <h3 class="service-title">Aula de Jumper (Cama Elástica)</h3>
+                    <p class="service-desc">
+                        Exercício de altíssimo gasto calórico e baixo impacto para as articulações. Realizado em mini
+                        camas elásticas individuais ao ritmo de músicas energéticas.
+                    </p>
+                    <div class="service-schedule-double">
+                        <div class="schedule-col">
+                            <span class="schedule-label">Período Manhã</span>
+                            <p class="schedule-days">Segunda, Quarta e Sexta</p>
+                            <p class="schedule-time">07:30 às 08:30</p>
+                            <p class="price-info">Valor: <strong>R$ 45,00</strong></p>
+                        </div>
+                        <div class="schedule-col">
+                            <span class="schedule-label">Período Noite</span>
+                            <p class="schedule-days">Terça e Quinta</p>
+                            <p class="schedule-time">18:20 às 19:20</p>
+                            <p class="price-info">Valor: <strong>R$ 40,00</strong></p>
+                        </div>
+                    </div>
+                    <div class="service-price price-custom-layout">
+                        <div>
+                            <span class="price-label">Planos</span>
+                            <div class="price-row">Manhã: <strong>R$ 45/mês</strong> | Noite: <strong>R$ 40/mês</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/5518981701087?text=Olá! Gostaria de reservar minha vaga na Aula de Jumper."
+                        target="_blank" class="btn btn-primary btn-block">Reservar Minha Vaga</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Class Schedule Section -->
+    <section class="schedule-grid-section">
+        <div class="container">
+            <span class="section-subtitle">PLANEJAMENTO</span>
+            <h2 class="section-title">CRONOGRAMA DE AULAS</h2>
+            <p class="schedule-intro">
+                Navegue pelos dias da semana abaixo para visualizar quais aulas coletivas estão programadas.
+            </p>
+
+            <!-- Day Selector Tabs -->
+            <div class="day-tabs">
+                <button class="day-tab active" data-day="seg">Segunda</button>
+                <button class="day-tab" data-day="ter">Terça</button>
+                <button class="day-tab" data-day="qua">Quarta</button>
+                <button class="day-tab" data-day="qui">Quinta</button>
+                <button class="day-tab" data-day="sex">Sexta</button>
+                <button class="day-tab" data-day="sab">Sábado</button>
+                <button class="day-tab" data-day="dom">Domingo</button>
+            </div>
+
+            <!-- Schedule List Wrapper -->
+            <div class="schedule-list-container">
+                <!-- Segunda-feira -->
+                <div class="day-schedule-content active" id="sched-seg">
+                    <div class="schedule-row">
+                        <span class="class-time">07:30 - 08:30</span>
+                        <div class="class-info">
+                            <h4>Aula de Jumper (Manhã)</h4>
+                            <p>Cama elástica individual. Alta queima calórica.</p>
+                        </div>
+                        <span class="class-tag">Jumper</span>
+                    </div>
+                    <div class="schedule-row">
+                        <span class="class-time">18:30 - 19:30</span>
+                        <div class="class-info">
+                            <h4>Aula de Zumba</h4>
+                            <p>Dança fitness em ritmos quentes.</p>
+                        </div>
+                        <span class="class-tag">Zumba</span>
+                    </div>
+                    <div class="schedule-row">
+                        <span class="class-time">19:30 - 20:20</span>
+                        <div class="class-info">
+                            <h4>Ginástica Localizada (Noite)</h4>
+                            <p>Fortalecimento de abdômen, pernas e glúteos.</p>
+                        </div>
+                        <span class="class-tag">Localizada</span>
+                    </div>
+                    <div class="schedule-row gym-row">
+                        <span class="class-time">06:00 - 21:30</span>
+                        <div class="class-info">
+                            <h4>Área de Musculação</h4>
+                            <p>Horário livre de treino individual supervisionado.</p>
+                        </div>
+                        <span class="class-tag-light">Musculação</span>
+                    </div>
+                </div>
+
+                <!-- Terça-feira -->
+                <div class="day-schedule-content" id="sched-ter">
+                    <div class="schedule-row">
+                        <span class="class-time">06:30 - 07:30</span>
+                        <div class="class-info">
+                            <h4>Ginástica Localizada (Manhã)</h4>
+                            <p>Fortalecimento muscular e definição precoce.</p>
+                        </div>
+                        <span class="class-tag">Localizada</span>
+                    </div>
+                    <div class="schedule-row">
+                        <span class="class-time">18:20 - 19:20</span>
+                        <div class="class-info">
+                            <h4>Aula de Jumper (Noite)</h4>
+                            <p>Cama elástica individual. Ritmos intensos.</p>
+                        </div>
+                        <span class="class-tag">Jumper</span>
+                    </div>
+                    <div class="schedule-row">
+                        <span class="class-time">19:30 - 20:30</span>
+                        <div class="class-info">
+                            <h4>Aula de Boxe</h4>
+                            <p>Técnicas de combate, cardio e saco de pancada.</p>
+                        </div>
+                        <span class="class-tag">Boxe</span>
+                    </div>
+                    <div class="schedule-row gym-row">
+                        <span class="class-time">06:00 - 21:30</span>
+                        <div class="class-info">
+                            <h4>Área de Musculação</h4>
+                            <p>Horário livre de treino individual supervisionado.</p>
+                        </div>
+                        <span class="class-tag-light">Musculação</span>
+                    </div>
+                </div>
+
+                <!-- Quarta-feira -->
+                <div class="day-schedule-content" id="sched-qua">
+                    <div class="schedule-row">
+                        <span class="class-time">06:30 - 07:30</span>
+                        <div class="class-info">
+                            <h4>Ginástica Localizada (Manhã)</h4>
+                            <p>Fortalecimento muscular e definição precoce.</p>
+                        </div>
+                        <span class="class-tag">Localizada</span>
+                    </div>
+                    <div class="schedule-row">
+                        <span class="class-time">07:30 - 08:30</span>
+                        <div class="class-info">
+                            <h4>Aula de Jumper (Manhã)</h4>
+                            <p>Cama elástica individual. Alta queima calórica.</p>
+                        </div>
+                        <span class="class-tag">Jumper</span>
+                    </div>
+                    <div class="schedule-row">
+                        <span class="class-time">18:30 - 19:30</span>
+                        <div class="class-info">
+                            <h4>Aula de Zumba</h4>
+                            <p>Dança fitness em ritmos quentes.</p>
+                        </div>
+                        <span class="class-tag">Zumba</span>
+                    </div>
+                    <div class="schedule-row">
+                        <span class="class-time">19:30 - 20:20</span>
+                        <div class="class-info">
+                            <h4>Ginástica Localizada (Noite)</h4>
+                            <p>Fortalecimento de abdômen, pernas e glúteos.</p>
+                        </div>
+                        <span class="class-tag">Localizada</span>
+                    </div>
+                    <div class="schedule-row gym-row">
+                        <span class="class-time">06:00 - 21:30</span>
+                        <div class="class-info">
+                            <h4>Área de Musculação</h4>
+                            <p>Horário livre de treino individual supervisionado.</p>
+                        </div>
+                        <span class="class-tag-light">Musculação</span>
+                    </div>
+                </div>
+
+                <!-- Quinta-feira -->
+                <div class="day-schedule-content" id="sched-qui">
+                    <div class="schedule-row">
+                        <span class="class-time">06:30 - 07:30</span>
+                        <div class="class-info">
+                            <h4>Ginástica Localizada (Manhã)</h4>
+                            <p>Fortalecimento muscular e definição precoce.</p>
+                        </div>
+                        <span class="class-tag">Localizada</span>
+                    </div>
+                    <div class="schedule-row">
+                        <span class="class-time">18:20 - 19:20</span>
+                        <div class="class-info">
+                            <h4>Aula de Jumper (Noite)</h4>
+                            <p>Cama elástica individual. Ritmos intensos.</p>
+                        </div>
+                        <span class="class-tag">Jumper</span>
+                    </div>
+                    <div class="schedule-row">
+                        <span class="class-time">19:30 - 20:30</span>
+                        <div class="class-info">
+                            <h4>Aula de Boxe</h4>
+                            <p>Técnicas de combate, cardio e saco de pancada.</p>
+                        </div>
+                        <span class="class-tag">Boxe</span>
+                    </div>
+                    <div class="schedule-row gym-row">
+                        <span class="class-time">06:00 - 21:30</span>
+                        <div class="class-info">
+                            <h4>Área de Musculação</h4>
+                            <p>Horário livre de treino individual supervisionado.</p>
+                        </div>
+                        <span class="class-tag-light">Musculação</span>
+                    </div>
+                </div>
+
+                <!-- Sexta-feira -->
+                <div class="day-schedule-content" id="sched-sex">
+                    <div class="schedule-row">
+                        <span class="class-time">07:30 - 08:30</span>
+                        <div class="class-info">
+                            <h4>Aula de Jumper (Manhã)</h4>
+                            <p>Cama elástica individual. Alta queima calórica.</p>
+                        </div>
+                        <span class="class-tag">Jumper</span>
+                    </div>
+                    <div class="schedule-row">
+                        <span class="class-time">18:30 - 19:30</span>
+                        <div class="class-info">
+                            <h4>Aula de Zumba</h4>
+                            <p>Dança fitness em ritmos quentes.</p>
+                        </div>
+                        <span class="class-tag">Zumba</span>
+                    </div>
+                    <div class="schedule-row">
+                        <span class="class-time">19:30 - 20:20</span>
+                        <div class="class-info">
+                            <h4>Ginástica Localizada (Noite)</h4>
+                            <p>Fortalecimento de abdômen, pernas e glúteos.</p>
+                        </div>
+                        <span class="class-tag">Localizada</span>
+                    </div>
+                    <div class="schedule-row gym-row">
+                        <span class="class-time">06:00 - 21:30</span>
+                        <div class="class-info">
+                            <h4>Área de Musculação</h4>
+                            <p>Horário livre de treino individual supervisionado.</p>
+                        </div>
+                        <span class="class-tag-light">Musculação</span>
+                    </div>
+                </div>
+
+                <!-- Sábado -->
+                <div class="day-schedule-content" id="sched-sab">
+                    <div class="schedule-row gym-row">
+                        <span class="class-time">08:30 - 11:00</span>
+                        <div class="class-info">
+                            <h4>Área de Musculação (Período Manhã)</h4>
+                            <p>Livre para treinos.</p>
+                        </div>
+                        <span class="class-tag-light">Musculação</span>
+                    </div>
+                    <div class="schedule-row gym-row">
+                        <span class="class-time">13:30 - 16:00</span>
+                        <div class="class-info">
+                            <h4>Área de Musculação (Período Tarde)</h4>
+                            <p>Livre para treinos.</p>
+                        </div>
+                        <span class="class-tag-light">Musculação</span>
+                    </div>
+                    <div class="empty-schedule-state">
+                        <p>Nenhuma aula coletiva programada para este dia.</p>
+                    </div>
+                </div>
+
+                <!-- Domingo -->
+                <div class="day-schedule-content" id="sched-dom">
+                    <div class="schedule-row gym-row">
+                        <span class="class-time">08:00 - 16:00</span>
+                        <div class="class-info">
+                            <h4>Área de Musculação (Período Contínuo)</h4>
+                            <p>Livre para treinos.</p>
+                        </div>
+                        <span class="class-tag-light">Musculação</span>
+                    </div>
+                    <div class="empty-schedule-state">
+                        <p>Nenhuma aula coletiva programada para este dia.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    JUMPER<span>FITNESS</span>
+                </a>
+                <p class="footer-desc">
+                    Força, energia e movimento. Seu treino levado a sério no centro de Presidente Venceslau.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Navegação</h4>
+                <a href="index.html">Início</a>
+                <a href="index.html#sobre">Sobre</a>
+                <a href="servicos.html">Serviços</a>
+                <a href="galeria.html">Galeria</a>
+                <a href="roupas.html">Roupas</a>
+            </div>
+
+            <div class="footer-social">
+                <h4>Redes Sociais</h4>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/Jumper.Fitness2015" target="_blank"
+                        aria-label="Facebook Jumper Fitness">
+                        <img src="assets/facebook.svg" width="24" height="24" alt="Facebook">
+                    </a>
+                    <a href="https://www.instagram.com/jumper.fitness/" target="_blank"
+                        aria-label="Instagram Jumper Fitness">
+                        <img src="assets/instagram.svg" width="24" height="24" alt="Instagram">
+                    </a>
+                    <a href="https://wa.me/5518981701087?text=Ol%C3%A1%2C%20vi%20voc%C3%AAs%20pelo%20site%20e%20quero%20me%20matricular." target="_blank" aria-label="WhatsApp Jumper Fitness">
+                        <img src="assets/whatsapp.svg" width="24" height="24" alt="WhatsApp">
+                    </a>
+                </div>
+                <p class="phone-display">(18) 98170-1087</p>
+            </div>
+        </div>
+
+        <div class="container copyright-container">
+            <p>&copy;
+                <script>document.write(new Date().getFullYear())</script> Jumper Fitness. Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
